@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <title>curriculum vitae</title>
+ <hr><h1><b>R Porselvi</b></h1>
+ <p>student</p>
+ <p>currently persuing in Shiv Nadar University 
+ chennai</p>
+ <p>ph no:8899893872</p>
+ <p>DOB:18-12-2003</p>
+ 
+ <hr>
+ </head>
+ <body>
+ 
+ <p >Interests</p>
+ <ul>
+ <li>Photography</li>
+ <li>Design</li>
+ <li>Programming</li>
+ </ul>
+ <p>Skills</p>
+ <ul>
+ <li>Web Design with HTML & CSS</li>
+ <li>c</li>
+ <li>c++</li>
+ <li>core java</li>
+ <li>python</li>
+ <li>MYSQL</li>
+ </ul>
+ <p>Education</p>
+ <ul>
+ <li>little scholar School</li>
+ <li>sri chaitanya junior college</li>
+ <li>currently persuing in shiv nadar university</li>
+ </ul>
+ <p>languages</p>
+ <ul>
+ <li>English</li>
+ <li>Hindi</li>
+ <li>tamil</li>
+ <li>telugu</li>
+ <li>malayalam</li>
+ </ul>
+ <p>projects</p>
+ <ul>
+ <li>expense tracker using dbms</li>
+ <li>voice based aasitant for pc</li>
+ </ul> 
+ <p>certificates</p>
+ <ul>
+ <li>amazon web service course</li>
+ </ul>
+ </body>
+</html>

@@ -1,0 +1,247 @@
+<!-- This is the html file of cv -->
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>
+ CV 
+ </title>
+ <link rel="stylesheet" type="text/css" href="main.css">
+ </head>
+ <body>
+ <div id="header">
+ <p id="name">
+ R Porselvi 
+ </p>
+ <a href="mailto:shalushiny3@gmail.com" target="_blank">
+ <p id="email">
+ shalushiny3@gmail.com 
+ </p>
+ </a>
+ 
+ </div>
+ <div class="body">
+ <div class="img">
+ <p>
+ <img src="pic.jpeg" width="220" height="220">
+ </p>
+ </div>
+ <h3 >
+ Professional Summary 
+ </h3>
+ <p>
+ As a B.Tech pursuing student, I am driven by a strong passion 
+for technology and a desire to excel in the field of engineering. With a focus 
+on [your specific field of engineering or specialization], I have been 
+consistently striving to acquire a comprehensive understanding of theoretical 
+concepts and their practical applications.I am eager to embrace new 
+opportunities, take on responsibilities, and continuously grow as a 
+professional. 
+ </p>
+ <h3>
+ Personal Information 
+ </h3>
+ <p>
+ <li>
+ Languages Known: 
+ <ul>English</ul><ul>Tamil</ul><ul>Telugu</ul><ul>hindi</ul
+><ul>malayalam</ul>
+ </li>
+ <li>
+ Hobbies:<ul>I enjoy doing photography</ul><ul>listening 
+music</ul><ul>Travelling</ul><ul>Designing</ul><ul></ul>
+ </li>
+ </p>
+ <h3>
+ Skills 
+ </h3>
+ <p>
+ <li>
+ Programming Languages:Python,Java,C,HTML,SQL,CSS,c++. 
+ </li>
+ 
+ <li>
+ Data Analysis: Pandas, NumPy. 
+ </li>
+ <li>
+ Data Visualization: Tableau. 
+ </li>
+ </p>
+ <h3>
+ Educational Qualifications 
+ </h3>
+ <table>
+ <tr id="table">
+ <td>
+ Institution Name 
+ </td>
+ <td>
+ Course / Board 
+ </td>
+ <td>
+ Percentage / Grades 
+ </td>
+ <td>
+ Year 
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Shiv Nadar University,Chennai 
+ </td>
+ <td>
+ Btech CSE IOT 
+ </td>
+ <td>
+ 7.7 
+ </td>
+ <td>
+ 2021-2025 
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Sri Chaitanya Junior kalasala(hyderabad) 
+ </td>
+ <td>
+ MPC(State board) 
+ </td>
+ <td>
+ 91% 
+ </td>
+ <td>
+ 2019-2021 
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Little Scholar School,hyderabad 
+ </td>
+ <td>
+ CBSE 
+ </td>
+ <td>
+ 80% 
+ </td>
+ <td>
+ 2007-962019 
+ </td>
+ </tr>
+ </table>
+ <h3>
+ Independent Courses 
+ </h3>
+ <p>
+ <li>
+ Full Stack Devolpment-Udemy(pursuing) 
+ </li>
+ <li>
+ Amazon Web services-PanTech eLearning 
+ </li>
+ </p>
+ <h3 id="projects">
+ Projects 
+ </h3>
+ <p>
+ <li>
+ Expense tracker and management system 
+ </li>
+ <li>
+ voice based aasitant for pc 
+ </li>
+ </p>
+ 
+ </div>
+ <div id="footer">
+ </div>
+ 
+ </body>
+</html>
+CSS
+/* This is the css file of cv */
+div
+{ 
+ border-radius:5px; 
+} 
+#header
+{ 
+ font-size:large ; 
+ color: white; 
+ position: fixed; 
+ z-index: 15; 
+ height:40px; 
+ width: 98%; 
+ background-color:#3498DB; 
+ margin-bottom: 15px; 
+ margin-top: 5px; 
+} 
+#name { 
+ float:left; 
+ margin-left: 20px; 
+ padding-bottom: 10px; 
+ font-size: 16px; 
+ font-family: Verdana; 
+ color: #ffffff; 
+ font-weight: bold; 
+} 
+#email{ 
+ float:right; 
+ margin-right: 20px; 
+ padding-bottom: 10px; 
+ font-size: 16px; 
+ font-family: Verdana; 
+ color: #ffffff; 
+} 
+a:hover
+{ 
+ font-weight:bolder; 
+} 
+.img
+{ 
+ float: right; 
+ border-radius: 50%; 
+ margin-right: 150px; 
+ padding-top: 35px; 
+ display: flex; 
+ justify-content: center; 
+ background-color:#ECF0F1; 
+} 
+.img img
+{ 
+ border-radius: 50%; 
+} 
+.body
+{ 
+ float: left; 
+ margin-top: 60px; 
+ padding-left:5px; 
+ height: auto; 
+ width: 99%; 
+ background-color: #ECF0F1; 
+ font-size: 16px; 
+ font-family:Georgia, 'Times New Roman', Times, serif; 
+} 
+h3
+{ 
+ font-size: 16px; 
+ text-decoration: underline; 
+ font-family: Verdana; 
+} 
+table
+{ 
+ border: 1px dashed black; 
+} 
+td
+{ 
+ padding: 2px; 
+ border: 1px solid black; 
+} 
+#footer
+{ 
+ height:40px; 
+ clear:both; 
+ position: relative; 
+ background-color:#3498DB; 
+ width: 98%; 
+ z-index: 15; 
+ margin-bottom: 15px; 
+ margin-top: 15px; 
